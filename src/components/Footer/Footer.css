@@ -1,0 +1,35 @@
+.footer {
+  padding: 40px 0;
+  color: #ffffff;
+  background-color: #8c61ff;
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-socials__social {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-socials__social:not(:last-child) {
+  margin-right: 12px;
+}
+
+.footer__copyright a {
+  color: #ffffff;
+}
