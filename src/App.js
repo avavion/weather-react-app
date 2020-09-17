@@ -6,11 +6,29 @@ import Footer from "./components/Footer/Footer";
 
 class App extends React.Component {
   render() {
-    return <div className="App">
-      <Header></Header>
-      <Weather></Weather>
-      <Footer></Footer>
-    </div>;
+    const PLACES = [
+      {
+        name: "Kazan",
+        id: "551487",
+      },
+    ];
+    return (
+      <div className="App">
+        <Header></Header>
+        {PLACES.map((place, index) => (
+          <button
+            key={index}
+            onClick={() => {
+              console.log(index);
+            }}
+          >
+            {place.name}
+          </button>
+        ))}
+        <Weather city="551487"></Weather>
+        <Footer></Footer>
+      </div>
+    );
   }
 }
 

@@ -13,7 +13,7 @@ class Footer extends React.Component {
                   href="https://github.com/avavion"
                   className="footer-socials__link"
                 >
-                  <i class="fab fa-github"></i>
+                  <i className="fab fa-github"></i>
                 </a>
               </li>
 
@@ -22,7 +22,7 @@ class Footer extends React.Component {
                   href="https://vk.com/avavion"
                   className="footer-socials__link"
                 >
-                  <i class="fab fa-vk"></i>
+                  <i className="fab fa-vk"></i>
                 </a>
               </li>
             </ul>
